@@ -1,0 +1,13 @@
+corner==2.1.0
+shap==0.34.0
+seaborn==0.11.0
+Theano==1.0.5
+xgboost==1.0.2
+pymc3==3.9.3
+pandas==0.24.1
+scipy==0.18.1
+arviz==0.9.0
+colour==0.1.5
+matplotlib==2.2.3
+numpy==1.12.1
+scikit_learn==0.23.2
