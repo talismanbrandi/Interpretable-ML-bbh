@@ -1,11 +1,11 @@
 # Interpretable-ML-bbh
 A repository for application of BDTs and Shapley values to associated bbh production at HL-LHC and FCC-hh
 
-Resurrecting bbh with kinematic shapes
-Christophe Grojean, Ayan Paul, and Zhuoni Qian
+Resurrecting bbh with kinematic shapes  
+Christophe Grojean, Ayan Paul, and Zhuoni Qian  
 https://arxiv.org/abs/2011.13945
 
-If you use this code or the results of the work please cite:
+If you use this code or the results of the work please cite:  
 
 ```
 @article{Grojean:2020ech,
