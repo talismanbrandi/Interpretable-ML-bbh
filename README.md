@@ -1,6 +1,25 @@
 # Interpretable-ML-bbh
 A repository for application of BDTs and Shapley values to associated bbh production at HL-LHC and FCC-hh
 
+Resurrecting bbh with kinematic shapes
+Christophe Grojean, Ayan Paul, and Zhuoni Qian
+https://arxiv.org/abs/2011.13945
+
+If you use this code or the results of the work please cite:
+
+```
+@article{Grojean:2020ech,
+    author = "Grojean, Christophe and Paul, Ayan and Qian, Zhuoni",
+    title = "{Resurrecting $b\bar{b}h$ with kinematic shapes}",
+    eprint = "2011.13945",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-ph",
+    reportNumber = "DESY-20-175, HU-EP-20/28",
+    month = "11",
+    year = "2020"
+}
+```
+
 - There are three Jupyter notebooks and all the data needed to do the full analysis.  
 - The simulations directory contains the MadGraph simulations for HL-LHC and FCC-hh
 - The plots directory contains all the plots used in the draft.
@@ -10,6 +29,7 @@ A repository for application of BDTs and Shapley values to associated bbh produc
 .
 ├── LICENSE
 ├── Notebooks
+│   ├── DNN.ipynb                        # DNN analysis to compare with the BDT
 │   ├── Final_Analysis.ipynb             # Main analysis notebook with BDT and SHAP
 │   ├── Fit-2P.ipynb                     # PyMC3 Bayesian MCMC fit
 │   ├── models
@@ -46,6 +66,7 @@ A repository for application of BDTs and Shapley values to associated bbh produc
 │   ├── sig14.pdf
 │   ├── yt2-yb2-BDT-dist.pdf
 │   ├── zh-yb2-BDT-dist.pdf
+│   ├── zh-yb2-DNN-dist.pdf
 │   └── zh_yb2.png
 ├── README.md
 ├── requirements.txt
