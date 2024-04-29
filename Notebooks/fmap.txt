@@ -1,0 +1,12 @@
+0	njjet	q
+1	ptb1	q
+2	pta1	q
+3	pta2	q
+4	ptaa	q
+5	mbb	q
+6	maa	q
+7	mb1h	q
+8	mbbh	q
+9	ht	q
+10	drba1	q
+11	dphiba1	q
